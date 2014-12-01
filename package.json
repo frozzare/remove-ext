@@ -1,0 +1,33 @@
+{
+  "name": "remove-ext",
+  "description": "Remove the extension from the string path to file",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/frozzare/remove-ext",
+  "author": {
+    "name": "Fredrik Forsmo",
+    "email": "fredrik.forsmo@gmail.com",
+    "url": "http://forsmo.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frozzare/remove-ext.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "lib/remove-ext",
+  "files": [
+    "lib/remove-ext.js"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "remove",
+    "extension"
+  ]
+}
