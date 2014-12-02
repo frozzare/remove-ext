@@ -14,6 +14,17 @@ var rmExt  = require('remove-ext')
 console.log(result); // 'path/to/gif'
 ```
 
+Remove extension without knowing which extension it is:
+
+```javascript
+var rmExt  = require('remove-ext')
+    path   = '/path/to/image.png',
+    result = rmExt(path);
+
+console.log(result); // 'path/to/image'
+```
+
+
 ## License
 Copyright (c) 2014 Fredrik Forsmo  
 Licensed under the MIT license.
